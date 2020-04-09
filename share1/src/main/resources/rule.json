@@ -1,0 +1,18 @@
+[
+  {
+    "basic": {
+      "B2": ["STRING", "n1"],
+      "C2": ["NUMERIC", "v1"],
+      "B3": ["STRING", "n2"],
+      "C3": ["NUMERIC", "v2"]
+      
+    },
+    "formula": {
+      "C4": {
+        "operate": "SUM",
+        "type": "NUMERIC",
+        "cells": ["C2", "C3"]
+      }
+    }
+  }
+]
